@@ -6,3 +6,12 @@ for (let i=0; i <myArray.length; i++){
     console.log(myArray[i]);// ar eta to specific vabe point korar jonno ... ar ha eibarei kintu asol ouput dekhabe orthat mayarray te jehetu i ke index hisebe dhoraya deoa hoise tai array er eobgula element print hobe
 
 }
+
+
+const secondArray = [27,32,4,1,7,34,49,60,96,44,55]
+
+for (let i = 0; i<secondArray.length;i++){
+    if(secondArray[i]>40){
+        console.log(secondArray[i])
+    }
+}
